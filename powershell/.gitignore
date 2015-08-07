@@ -17,6 +17,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+vmware_stats_to_array.cred
+
 # =========================
 # Operating System Files
 # =========================
