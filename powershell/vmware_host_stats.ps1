@@ -29,4 +29,4 @@ foreach($vmHost in $hosts){
 
   $allhosts += $hoststat
 }
-$allhosts | Select HostName, Mem, CPU, DSUsed, net, iops | ConvertTo-JSON > '\\rpd-os1\c$\inetpub\wwwroot\ops\datasources\vsphere.json'
+$allhosts | Select HostName, Mem, CPU, DSUsed, net, iops | ConvertTo-JSON > '\\os1\c$\inetpub\wwwroot\ops\datasources\vsphere.json'
