@@ -1,4 +1,4 @@
-﻿$MurderName = 'C:\MapFiles\' + $date.Month +"-"+ $date.Year + '_murder.csv' #This script originally created a bunch of files, pared back for simplicity's sake
+﻿$MurderName = 'C:\MapFiles\murder.csv' #This script originally created a bunch of files, pared back for simplicity's sake
 If (Test-Path $MurderName){Remove-Item $MurderName} #Deletes any old files still lingering around
 
 $SleepTime = 100 #Sleep Duration in MS.  This is required to avoid hitting Google's API limits on the Geocode free-tier.
